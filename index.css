@@ -1,0 +1,344 @@
+*{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    border: border-box;
+    /*border box is used to give margin which is included in the height and width of the element*/
+}
+/*When we have a lot of divs in the navbar we can use flex to make it adjust in the navbar itself*/
+
+/*Navbar*/
+.navbar{
+    height: 60px;
+    background-color: #131921;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    height: 50px;
+    width: 110px;
+}
+
+/*Div is only visible when we give some height and width to the div*/
+.logo{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 110px
+}
+
+/*box 1*/
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+}
+
+
+/*Box 2*/
+.deliver{
+    color: #cccc;
+    font-size: 0.85rem;
+    /*Font size is given in rem to make the website in a better optimized way and make it responsive*/
+    margin-left: 15px;
+}
+
+.country{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+/*Box 3*/
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left:10px;
+    width: 900px;
+    height: 40px;
+    background-color: rgb(237, 178, 17);
+    border-radius: 4px;
+    margin-left: 20px;
+}
+
+.nav-search:hover{
+    border: 2px solid rgb(237, 178, 17);
+}
+
+.search-select{
+    background-color: #f3f3f3;
+    width: 51px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+.search-input{
+    width: 800px;
+    border: none;
+    font-size: 1rem;
+}
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*box4*/
+span{
+    font-size: 0.8rem;
+}
+
+.nav-second{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.nav-lists{
+    background-color: #131921;
+    border: 1px solid transparent;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-right:50px;
+}
+
+.Accounts{
+    font-weight: 700;
+}
+
+/*box 5*/
+.cart{
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    padding: 9px;
+}
+
+.nav-cart{
+    margin-left: 4px;
+}
+
+/*Nav-main*/
+.nav-main{
+    background-color:#232f3e;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+/*box 1*/
+.hamburger-menu{
+    display: flex;
+    margin-left: 20px;
+    padding: 2px;
+}
+
+.hamburger-all{
+    margin-left: 5px;
+    font-weight: 700;
+    font: 25px;
+}
+
+/*box 2*/
+.shop{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.shopping{
+    margin-left:10px;
+}
+
+/*Hero-section*/
+.hero-section{
+    background-image: url("hero_image.jpg");
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-msg{
+    background-color: white;
+    font-size: 14px;
+    color: black;
+    height:40px;
+    width: 1460px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 25px;
+}
+
+.hero-msg a{
+    color: #007185;
+}
+
+/*Shop section*/
+.shop-section-1{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:#e2e7e2;
+    flex-wrap: wrap;
+}
+
+.box{
+    height: 420px;
+    width:350px;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin:2px;
+    margin-top:15px;
+}
+
+.box1-image{
+    background-image: url(box1_image.jpg);
+    height: 350px;
+    margin: 7px;
+    background-size: cover;
+}
+
+.box-content{
+    margin:5px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.see-more{
+    color:  #007185;;
+}
+
+
+.box2-image{
+    background-image: url(box2_image.jpg);
+    height: 350px;
+    margin: 7px;
+    background-size: cover;
+}
+
+.box-content{
+    margin:5px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.see-more{
+    color:  #007185;;
+}
+
+.box3-image{
+    background-image: url(box3_image.jpg);
+    height: 350px;
+    margin: 7px;
+    background-size: cover;
+}
+
+.box-content{
+    margin:5px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.see-more{
+    color:  #007185;;
+}
+
+.box4-image{
+    background-image: url(box4_image.jpg);
+    height: 350px;
+    margin: 7px;
+    background-size: cover;
+}
+
+.box-content{
+    margin:5px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.see-more{
+    color:  #007185;;
+}
+
+.box5-image{
+    background-image: url(box5_image.jpg);
+    height: 350px;
+    margin: 7px;
+    background-size: cover;
+}
+
+.box-content{
+    margin:5px;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 5px;
+}
+
+.see-more{
+    color:  #007185;;
+}
+
+.box6-image{
+    background-image: url(box6_image.jpg);
+    height: 350px;
+    margin: 7px;
+    background-size: cover;
+}
+
+.box-content{
+    margin:5px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.see-more{
+    color:  #007185;;
+}
+
+.box7-image{
+    background-image: url(box7_image.jpg);
+    height: 350px;
+    margin: 7px;
+    background-size: cover;
+}
+
+.box-content{
+    margin:5px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.see-more{
+    color:  #007185;;
+}
+
+.box8-image{
+    background-image: url(box8_image.jpg);
+    height: 350px;
+    margin: 7px;
+    background-size: cover;
+}
+
+.box-content{
+    margin:5px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.see-more{
+    color:  #007185;;
+}
